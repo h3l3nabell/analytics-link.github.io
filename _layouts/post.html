@@ -39,20 +39,20 @@ layout: default
                 <div class="post-navigation">
                     {% if page.previous.url %}
                     <a href="{{ site.baseurl }}{{page.previous.url}}" class="prev">
-                        <div class="post-nav-arrow"><i class="ion ion-ios-arrow-round-back"></i> Previous </div>
+                        <div class="post-nav-arrow"><i class="ion ion-ios-arrow-round-back"></i> Newer </div>
                     </a>
                     {% else %}
                     <a href="#" class="prev disabled">
-                        <div class="post-nav-arrow"><i class="ion ion-ios-arrow-round-back"></i> Previous </div>
+                        <div class="post-nav-arrow"><i class="ion ion-ios-arrow-round-back"></i> Check Back Soon </div>
                     </a>
                     {% endif %}
                     {% if page.next.url %}
                     <a href="{{ site.baseurl }}{{page.next.url}}" class="next">
-                        <div class="post-nav-arrow">Next <i class="ion ion-ios-arrow-round-forward"></i></div>
+                        <div class="post-nav-arrow">Older <i class="ion ion-ios-arrow-round-forward"></i></div>
                     </a>
                     {% else %}
                     <a href="#" class="next disabled">
-                        <div class="post-nav-arrow">Next <i class="ion ion-ios-arrow-round-forward"></i></div>
+                        <div class="post-nav-arrow">Thats All Folks! <i class="ion ion-ios-arrow-round-forward"></i></div>
                     </a>
                     {% endif %}
                 </div>
